@@ -4,7 +4,7 @@ Neural Networks, 2024"
 
 If you are using our code, please give proper citation to the above given paper.
 
-If there is any issue/bug in the code please write to huajunwang2023@163.com or optimization li@163.com.
+If there is any issue/bug in the code please write to huajunwang2023@163.com or optimization_li@163.com.
 
 The codes of the simulate data and real data are described as follows:
 
