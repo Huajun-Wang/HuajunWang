@@ -22,9 +22,9 @@ The input and output parameters of our algorithm are described as follows
        pars -- parameters (optional)
 
  pars:    Parameters are all OPTIONAL
-             pars.rho   --  Starting point of alpha \in\R^m,  (default, zeros(m,1))
-             pars.sigma  --  A positive scalar in (2^-4,2^-6,...,2^4).(default, 1)
-             pars.eta      --  A positive scalar in (sqrt(2)^-4,...,sqrt(2)^4).(default, 1)
+             pars.eta   --  Starting point of eta \in\R^m,  (default, zeros(m,1))
+             pars.alpha  --  A positive scalar in (2^-4,2^-6,...,2^4).(default, 1)
+             pars.theta      --  A positive scalar in (sqrt(2)^-4,...,sqrt(2)^4).(default, 1)
              pars.maxit   --  Maximum number of iterations, (default,1000)
              pars.tol     --  Tolerance of the halting condition, (default,1e-3)
 
@@ -32,13 +32,13 @@ The input and output parameters of our algorithm are described as follows
     Out.iter:        Number of iterations
     Out.time:        CPU time
     Out.wb:          The solution of the primal problem, namely the classifier
-    Out.d:           The solution d
-    Out.ups:         The solution upsilon
+    Out.q:           The solution q
+    Out.eta:         The solution eta
     Out.alpha:       The solution alpha
     Out.nsv:         Number of support vectors
     Out.s:           Sparsity level of the solution Out.alpha
     Out.acc:         Classification accuracy
     Out.error:       Classification error
 
-The all real dataset can be downloaded as follows  ? the libsvm library   https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/),
- the kaggle library    https://www.kaggle.com/datasets   and  the uci library (http://archive.ics.uci.edu/ml/datasets.php)
+The all real dataset can be downloaded as follows：the libsvm library：(https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/),
+ the kaggle library：  (https://www.kaggle.com/datasets)   and  the uci library ：(http://archive.ics.uci.edu/ml/datasets.php)
